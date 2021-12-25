@@ -2,11 +2,19 @@
 <html>
   <head>
     <title>X-mas Button-up</title>
+    <style>
+      body {background-color: #000}
+    </style>
   </head>
   <body>
     <h1>X-mas Button-up</h1>
     <div>
-      blahblah
+      <button id="connect-btn">Connect</button>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.5.2/ethers.esm.js" integrity="sha512-tAnlVl5Wgm090hmi+IDGUW17wIEbaHE2Bon5pIC1ZbWw7QpXZ3cERJlCS/5DLcQ+n/a+5awUMs8jYjXmvL3/8w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      let connectBtn=document.getElementById("connect-btn")
+      connectBtn.onClick=(){console.log("bloop")}
+    </script>
   </body>
 </html>
